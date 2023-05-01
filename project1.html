@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>project1</title>
+    <style>
+         .carousel-indicators >div{
+        border-radius: 50%;
+        width: 10px !important;
+        height: 10px !important;
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon{
+        background-color: black;
+        width: 30px;
+        height: 50px;
+       }
+       .img{
+        position: relative;
+       }
+       .carousel-caption >h1{
+        position: absolute;
+        top: -450px;
+        left: -100px;
+       }
+       
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-warning sticky-top">
+        <div class="container-fluid">
+          <img src="../htmldocs/images/butterfly.webp" width="50px" height="50px" class="rounded-circle">
+          <ul class="navbar-nav">
+        <li class="nav-item"><a href="offcanvas.html" class="btn btn-primary mx-1">home<i class="bi bi-house-door-fill"></i></a></li>
+        <li class="nav-item"><a href="grid.html" class="btn btn-primary mx-1" type="button">contact us</a></li>
+          <li class="nav-item"><a href="accordian.html" class="btn btn-primary mx-1" type="button">about us<i class="bi bi-file-person"></i></a></li>
+            <li class="nav-item"><a href="modal.html" class="btn btn-primary mx-1" type="button">login<i class="bi bi-box-arrow-in-right"></i></a></li>
+              <li class="nav-item"><a href="form.html" class="btn btn-primary mx-1" type="button">sign in<i class="bi bi-person-fill-add"></i></a></li>
+         </ul>
+        </div>
+    </nav>
+    <!---carousel start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-indicators">
+          <div data-bs-target="#carousel" class="active" data-bs-slide-to="0"></div>
+          <div data-bs-target="#carousel" data-bs-slide-to="1"></div>
+          <div data-bs-target="#carousel" data-bs-slide-to="2"></div>
+         </div>
+        <div class="carousel-inner">
+              <div class="carousel-item active"><img src="https://cdn.pixabay.com/photo/2023/04/16/08/50/flower-7929505__340.jpg" alt="" width="1300px" height="400px"></div>
+              <div class="carousel-item"><img src="https://media.istockphoto.com/id/486121005/photo/sun-rays-inside-coconut-palms.jpg?b=1&s=170667a&w=0&k=20&c=RsE02692qNh7SapxtJ7CzuzsmBpuuOm25NRxUazCgcE=" alt=""width="1300px" height="400px"></div>
+              <div class="carousel-item"><img src="https://cdn.pixabay.com/photo/2023/04/20/11/43/tulips-7939536__340.jpg" alt=""width="1300px" height="400px"></div>
+          <div class="carousel-caption">
+              <h2>welcome to my website</h2>
+              <h1 class="bi bi-universal-access-circle active"></h1>
+          </div>
+          </div>
+          </div>
+          <!--carousel controls-->
+           <a href="#carousel" data-bs-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+          <a href="#carousel" data-bs-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+      
+      </div>
+      <!---carousel-end-->
+      <h1 class="text-center text-success">main page</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem dolore ducimus libero illum reprehenderit quam fugiat incidunt in similique saepe excepturi corporis adipisci vitae quos ab laborum velit placeat porro odit, qui doloribus voluptates natus, atque consequatur? Harum, deserunt? Perspiciatis dolorum officiis eum asperiores nam quo ex iure non! A ipsam deserunt voluptas quia similique obcaecati laborum, deleniti, odit aspernatur veniam magnam quaerat. Quod blanditiis deleniti vitae sunt sit natus dicta at tempore quos eligendi architecto sint nihil repellendus molestias maiores quo quasi quisquam, consequatur hic, minus commodi aliquam iure doloribus velit. Culpa quasi ut soluta fugiat quas. Sapiente, voluptatum!</p>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
